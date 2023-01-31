@@ -1,0 +1,76 @@
+@media screen and (max-width: 1000px) {
+  .login {
+    left: 35% !important;
+  }
+}
+@media screen and (max-width: 800px) {
+  .login {
+    left: 30% !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .login {
+    left: 25% !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .login {
+    left: 17% !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .login {
+    left: 10% !important;
+  }
+}
+@media screen and (max-width: 360px) {
+  .login {
+    left: 7% !important;
+  }
+}
+@media screen and (max-width: 330px) {
+  .login {
+    left: 4% !important;
+  }
+}
+@media screen and (max-width: 320px) {
+  .login {
+    left: 3% !important;
+  }
+}
+.login {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 40%;
+  top: 20%;
+  background-color: rgb(137, 255, 206);
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.login input {
+  font-family: Nastaliq;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding-right: 10px;
+  border: none;
+  outline-color: rgb(0, 255, 170);
+}
+.login button {
+  font-family: Nastaliq;
+  width: 60%;
+  height: 50px;
+  margin-right: 20%;
+  margin-top: 60px;
+  border-radius: 10px;
+  background-color: rgb(13, 255, 0);
+  color: white;
+  font-size: 20px;
+  border: none;
+}
+.login button:hover {
+  cursor: pointer;
+  border: 1px solid rgb(255, 255, 255);
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,192 @@
+@media screen and (max-width: 1200px) {
+    .sendMainFileOpen{
+        top: 20% !important;
+        left: 28% !important;
+    }
+    .sendTazehaFileOpen{
+        top: 20% !important;
+        left: 28% !important;
+    }
+    .sendArchiveFileOpen{
+        top: 20% !important;
+        left: 28% !important;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .sendMainFileOpen{
+        left: 24% !important;
+    }
+    .sendTazehaFileOpen{
+        left: 24% !important;
+    }
+    .sendArchiveFileOpen{
+        left: 24% !important;
+    }
+}
+@media screen and (max-width: 700px) {
+    .sendMainFileOpen{
+        left: 20% !important;
+    }
+    .sendTazehaFileOpen{
+        left: 20% !important;
+    }
+    .sendArchiveFileOpen{
+        left: 20% !important;
+    }
+}
+@media screen and (max-width: 500px) {
+    .sendMainFileOpen{
+        left: 15% !important;
+    }
+    .sendTazehaFileOpen{
+        left: 15% !important;
+    }
+    .sendArchiveFileOpen{
+        left: 15% !important;
+    }
+}
+@media screen and (max-width: 400px) {
+    .sendMainFileOpen{
+        left: 10% !important;
+    }
+    .sendTazehaFileOpen{
+        left: 10% !important;
+    }
+    .sendArchiveFileOpen{
+        left: 10% !important;
+    }
+}
+@media screen and (max-width: 350px) {
+    .sendMainFileOpen{
+        left: 5% !important;
+    }
+    .sendTazehaFileOpen{
+        left: 5% !important;
+    }
+    .sendArchiveFileOpen{
+        left: 5% !important;
+    }
+}
+@media screen and (max-width: 320px) {
+    .sendMainFileOpen{
+        left: 2.5% !important;
+    }
+    .sendTazehaFileOpen{
+        left: 2.5% !important;
+    }
+    .sendArchiveFileOpen{
+        left: 2.5% !important;
+    }
+}
+
+
+
+
+.header{
+    h3:hover{
+        cursor: pointer;
+        color: white;
+    }
+}
+form.fheader{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.bodyright-head{
+    display: flex;
+    position: relative;
+}
+p.AfzodanArchive{
+    font-size: 17px;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+}
+p.AfzodanArchive:hover{
+    cursor: pointer;
+}
+
+.sendMainFileOpen{
+    width: 300px;
+    position: absolute;
+    top: 37%;
+    left: 37%;
+    display: inline-block;
+    background-color: aquamarine;
+    text-align: center;
+    flex-wrap: nowrap;
+    border-radius: 15px;
+    .sendMainFileOpenFile{
+        position: absolute;
+        right: 5px;
+        bottom: 5px;
+    }
+    .sendMainFileOpenFileB{
+        position: absolute;
+        left: 5px;
+        bottom: 5px;
+    }
+}
+.sendMainFileClose{
+    display: none;
+}
+.sendArchiveFileOpen{
+    width: 300px;
+    position: absolute;
+    top: 37%;
+    left: 37%;    
+    display: flex;
+    background-color: aquamarine;
+    text-align: center;
+    flex-wrap: nowrap;
+    border-radius: 15px;
+    .sendArchiveFileOpenFile{
+        position: absolute;
+        right: 5px;
+        bottom: 5px;
+    }
+    .sendArchiveFileOpenB{
+        position: absolute;
+        left: 5px;
+        bottom: 5px;
+    }
+}
+.sendArchiveFileClose{
+    display: none;
+}
+.sendTazehaFileOpen{
+    width: 300px;
+    position: absolute;
+    top: 37%;
+    left: 37%;    display: inline-block;
+    background-color: aquamarine;
+    text-align: center;
+    flex-wrap: nowrap;
+    border-radius: 15px;
+    .sendTazehaFileOpenFile{
+        position: absolute;
+        right: 5px;
+        bottom: 5px;
+    }
+    .sendTazehaFileOpenB{
+        position: absolute;
+        left: 5px;
+        bottom: 5px;
+    }
+}
+.sendTazehaFileClose{
+    display: none;
+}
+
+.divhazf{
+    position: relative;
+    .hazfB{
+        position: absolute;
+        right: 30px;
+        bottom: 30px;
+    }
+}
+.headerform{
+    height: 200px;
+}

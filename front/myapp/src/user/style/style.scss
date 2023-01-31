@@ -1,0 +1,219 @@
+@font-face {
+    font-family: "Nastaliq";
+    src:url("../../.././public/font/IranNastaliq.ttf") format('truetype'),
+}
+
+
+@media screen and (max-width: 1500px) {
+    .pHeader{
+        font-size: 60px !important;
+    }
+    .onvan{
+        font-size: 25px !important;
+        margin-top: 20px !important;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .pHeader{
+        font-size: 50px !important;
+    }
+    .onvan{
+        font-size: 40px !important;
+        // margin-top: 30px !important;
+    }
+    .divres{
+        display: flex !important;
+    }
+    .bodyright{
+        visibility: hidden;
+        position: absolute;
+        width: 50% !important;
+        left: 25%;
+        .bodyright-head{
+            display: block;
+            text-align: center !important;
+        }
+    }
+    .bodycenter{
+        position: absolute;
+        width: 50%;
+        left: 21%;
+    }
+    .bodyleft{
+        visibility: hidden;
+        position: absolute;
+        width: 50% !important;
+        left: 21%;
+        .bodyleft-head{
+            text-align: center !important;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .onvan{
+        font-size: 30px !important;
+    }
+    .bodyright{
+        width: 70% !important;
+        left: 15%;
+    }
+    .bodycenter{
+        width: 70% !important;
+        left: 15%;
+    }
+    .bodyleft{
+        width: 70% !important;
+        left: 15%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .bodycenter{
+        width: 80% !important;
+        left: 10%;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    .bodycenter{
+        width: 100% !important;
+        left: 0;
+        margin: 0;
+        img{
+            margin: 0 !important;
+            width: 100% !important;
+            height: 70vh !important;
+        }
+    }
+    .bodyright{
+        width: 100% !important;
+        left: 0;
+    }
+    .bodyleft{
+        width: 100% !important;
+        left: 0;
+    }
+    
+}
+
+
+
+
+
+
+
+
+.divres{
+    display: none;
+    p{
+        font-family: nastaliq;
+        margin-right: 20px;
+        font-size: 20px;
+    }
+}
+
+
+.header{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    .pHeader{
+        font-family: Nastaliq;
+        font-size: 70px;
+        display: inline;
+    }
+    .hHeader{
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        a:hover{
+            cursor: pointer;
+            color: black;
+        }
+    }
+}
+.body{
+    display: flex;
+    font-family: Nastaliq;
+    .bodyright{
+        width: 25%;
+        height: 1000px;
+        .bodyright-head{
+            width: 100%;
+            height: 10vh;
+            position: relative;
+            border-bottom: 0.5px solid rgb(230, 230, 230);
+            p.onvan{
+                margin-right: 10px;
+                font-size: 30px;
+            }
+        }
+        .bodyright-data{
+            img{
+                width: 90%;
+                margin-right: 5%;
+                margin-top: 5%;
+                border-radius: 5px;
+            }
+            .tazehaFilme{
+                width: 90%;
+                margin-right: 5%;
+                margin-top: 5%;
+                border-radius: 5px;
+            }
+        }
+    }
+    .bodycenter{
+        width: 55%;
+        height: 1000px;
+        .bodycenter-head{
+            width: 100%;
+            height: 10vh;
+            position: relative;
+        }
+        .bodycenter-data{
+            img{
+                width: 90%;
+                height: 90vh;
+                margin-right: 2.5%;
+                margin-top: 2%;
+                border-radius: 5px;
+            }
+            .mainFilme{
+                width: 90%;
+                margin-right: 2.5%;
+                margin-top: 2%;
+                border-radius: 5px;
+            }
+        }
+    }
+    .bodyleft{
+        width: 20%;
+        height: 1000px;
+        .bodyleft-head{
+            width: 100%;
+            height: 10vh;
+            border-bottom: 0.5px solid rgb(230, 230, 230);
+            position: relative;
+            p.onvan{
+                display: inline-block;
+                margin-right: 10px;
+                font-size: 30px;
+            }
+        }
+        .bodyleft-year{
+            display:flex;
+            flex-wrap: wrap;
+            h3{
+                margin: 10px;
+            }
+        }
+    }
+}

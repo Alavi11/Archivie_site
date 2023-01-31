@@ -1,0 +1,219 @@
+
+@media screen and (max-width: 1500px) {
+    .archiveImguser{
+        width: 60% !important;
+        height: 30vh !important;
+        margin-left: 20% !important;
+
+    
+    }
+    .archiveFilmuser{
+        width: 60% !important;
+        height: 30vh !important;
+        margin-left: 20% !important;
+
+    }
+}
+@media screen and (max-width: 1400px) {
+    .archiveImguser{
+        width: 70% !important;
+        height: 30vh !important;
+        margin-left: 15% !important;
+    }
+    .archiveFilmuser{
+        width: 70% !important;
+        height: 30vh !important;
+        margin-left: 15% !important;
+
+    }
+}
+@media screen and (max-width: 1100px) {
+    .archiveImguser{
+        width: 80% !important;
+        height: 30vh !important;
+        margin-left: 10% !important;
+    }
+    .archiveFilmuser{
+        width: 80% !important;
+        height: 30vh !important;
+        margin-left: 10% !important;
+
+    }
+}
+@media screen and (max-width: 1000px) {
+    .archiveright{
+        visibility: hidden;
+        position: absolute;
+        width: 100% !important;
+    }
+    .archiveleft{
+        position: absolute;
+        border: none !important;
+        width: 100% !important;
+    }
+    .archiveImguser{
+        width: 50% !important;
+        height: 30vh !important;
+        margin-left: 25% !important;
+    }
+    .archiveFilmuser{
+        width: 50% !important;
+        height: 30vh !important;
+        margin-left: 25% !important;
+
+    }
+    
+}
+@media screen and (max-width: 900px) {
+    .archiveImguser{
+        width: 60% !important;
+        height: 30vh !important;
+        margin-left: 20% !important;
+    }
+    .archiveFilmuser{
+        width: 60% !important;
+        height: 30vh !important;
+        margin-left: 20% !important;
+
+    }
+    
+}
+@media screen and (max-width: 700px) {
+    .archiveImguser{
+        width: 70% !important;
+        height: 30vh !important;
+        margin-left: 15% !important;
+    }
+    .archiveFilmuser{
+        width: 70% !important;
+        height: 30vh !important;
+        margin-left: 15% !important;
+
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    .archiveImguser{
+        width: 80% !important;
+        height: 30vh !important;
+        margin-left: 10% !important;
+    }
+    .archiveFilmuser{
+        width: 80% !important;
+        height: 30vh !important;
+        margin-left: 10% !important;
+
+    }
+    
+}
+@media screen and (max-width: 500px) {
+    .archiveImguser{
+        width: 90% !important;
+        height: 30vh !important;
+        margin-left: 5% !important;
+    }
+    .archiveFilmuser{
+        width: 90% !important;
+        height: 30vh !important;
+        margin-left: 5% !important;
+
+    }
+    
+}
+@media screen and (max-width: 400px) {
+    .archiveImguser{
+        width: 100% !important;
+        height: 30vh !important;
+        margin-left: -7px !important;
+    }
+    .archiveFilmuser{
+        width: 100% !important;
+        height: 30vh !important;
+        margin-left: -7px !important;
+
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Archive{
+    display: flex;
+    font-family: nastaliq;
+    .archiveleft{
+        width: 50%;
+        height: 1000px;
+        text-align: center;
+        border-right: 1px solid rgb(230, 230, 230);
+        .ArchiveP{
+            font-size: 30px;
+        }
+    }
+    .archiveright{
+        width: 50%;
+        height: 1000px;
+        text-align: center;
+        .ArchiveP{
+            font-size: 30px;
+        }
+    }
+}
+.divArch{
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    height: 30vh;
+    .ArchhazfB{
+        position: absolute;
+        right: 215px;
+        bottom: 0;    
+    }
+    .archiveImg{
+        width: 50%;
+        height: 30vh;
+        border-radius: 5px;
+        margin-left: 5%;
+    
+    }
+    .archiveFilm{
+        width: 50%;
+        height: 30vh;
+        border-radius: 5px;
+        margin-left: 5%;
+    }
+}
+.archiveImguser{
+    width: 50%;
+    height: 30vh;
+    border-radius: 5px;
+    display: block;
+    margin-left: 27%;
+    margin-top: 15px;
+
+}
+.archiveFilmuser{
+    width: 50%;
+    height: 30vh;
+    border-radius: 5px;
+    display: block;
+    margin-left: 27%;
+    margin-top: 15px;
+}
